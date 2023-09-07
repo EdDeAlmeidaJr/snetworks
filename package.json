@@ -1,0 +1,23 @@
+{
+  "name": "snetworks",
+  "version": "1.0.0",
+  "description": "Posting to social networks",
+  "main": "createpost.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": {
+    "name": "Ed de Almeida",
+    "email": "edvaldoajunior@gmail.com",
+    "url": "https://eddealmeida.surge.sh"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@jest/fake-timers": "^29.6.4",
+    "jest": "^29.6.4",
+    "rimraf": "^5.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
